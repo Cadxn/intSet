@@ -5,10 +5,8 @@
 
 typedef struct intsetType *intSet;
 
-intSet createSet(){
-    intSet new_set = malloc(sizeof(struct intsetType)); 
-    return new_set;
-}
+intSet createSet();
+
 void destroySet(intSet set);
 
 void clear(intSet set);
